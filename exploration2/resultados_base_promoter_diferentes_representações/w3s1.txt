@@ -1,0 +1,57 @@
+error sequences w:3, stride:1
+
+loss: 0.4734 - accuracy: 0.8889
+agagggtgtactccaagaagaggaagatgaggctagacgtctctgcatggagtatga
+catgtcagcctcgacaacttgcataaatgctttcttgtagacgtgccctacgcgctt
+cgaacgagtcaatcagaccgctttgactctggtattactgtgaacattattcgtctc
+
+
+loss: 0.0746 - accuracy: 0.9630
+cgaacgagtcaatcagaccgctttgactctggtattactgtgaacattattcgtctc
+
+
+loss: 0.3485 - accuracy: 0.8889
+tgctgaaaggaggaactatatgcgctcatacgatatgaacgttgagactgccgctga
+cgacttaatatactgcgacaggacgtccgttctgtgtaaatcgcaatgaaatggttt
+aattgtgatgtgtatcgaagtgtgttgcggagtagatgttagaatactaacaaactc
+
+
+loss: 0.4217 - accuracy: 0.8889
+
+tgctgaaaggaggaactatatgcgctcatacgatatgaacgttgagactgccgctga
+aaccattccggttgactcaatgagcatctcgatgcagcgtactcctacatgaataga
+aattgtgatgtgtatcgaagtgtgttgcggagtagatgttagaatactaacaaactc
+
+
+loss: 0.3574 - accuracy: 0.8889
+
+gtactagagaactagtgcattagcttatttttttgttatcatgctaaccacccggcg
+cgacttaatatactgcgacaggacgtccgttctgtgtaaatcgcaatgaaatggttt
+aattgtgatgtgtatcgaagtgtgttgcggagtagatgttagaatactaacaaactc
+
+
+0.4178 - accuracy: 0.8889
+
+tatgaccgaacgagtcaatcagaccgctttgactctggtattactgtgaacattatt
+gaggtggctatgtgtatgaccgaacgagtcaatcagaccgctttgactctggtatta
+aattgtgatgtgtatcgaagtgtgttgcggagtagatgttagaatactaacaaactc
+
+
+------------------------------------------------------------------------------------
+
+aaccattccggttgactcaatgagcatctcgatgcagcgtactcctacatgaataga x 1
+
+gtactagagaactagtgcattagcttatttttttgttatcatgctaaccacccggcg x 1
+
+agagggtgtactccaagaagaggaagatgaggctagacgtctctgcatggagtatga  x 1
+
+catgtcagcctcgacaacttgcataaatgctttcttgtagacgtgccctacgcgctt  x 1
+
+cgaacgagtcaatcagaccgctttgactctggtattactgtgaacattattcgtctc  x 2
+
+tgctgaaaggaggaactatatgcgctcatacgatatgaacgttgagactgccgctga  x 2
+
+cgacttaatatactgcgacaggacgtccgttctgtgtaaatcgcaatgaaatggttt  x 2
+
+aattgtgatgtgtatcgaagtgtgttgcggagtagatgttagaatactaacaaactc  x 3
+

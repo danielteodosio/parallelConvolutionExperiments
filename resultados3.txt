@@ -1,0 +1,26 @@
+
+
+cw1_cw3_simple_dens
+
+max val_accuracy :0.879483163356781: min val_loss : 0.2977512776851654
+max val_accuracy :0.8772554993629456: min val_loss : 0.30632197856903076
+max val_accuracy :0.8728001713752747: min val_loss : 0.31025275588035583
+max val_accuracy :0.8716863393783569: min val_loss : 0.3096042573451996
+max val_accuracy :0.8743595480918884: min val_loss : 0.3040370047092438
+
+avg = 0.87511694431
+
+
+
+cw1_cw3_cw6_simple_dens
+
+max val_accuracy :0.8752506375312805: min val_loss : 0.30326390266418457
+max val_accuracy :0.8730229735374451: min val_loss : 0.31064650416374207
+max val_accuracy :0.8741368055343628: min val_loss : 0.29526033997535706
+max val_accuracy :0.8741368055343628: min val_loss : 0.3072223961353302
+max val_accuracy :0.8761416673660278: min val_loss : 0.2969740331172943
+max val_accuracy :0.8678992986679077: min val_loss : 0.3205546438694    #
+
+
+avg = 0.8745377779
+

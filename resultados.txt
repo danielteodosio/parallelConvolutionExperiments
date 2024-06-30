@@ -1,0 +1,188 @@
+CNN = keras.Sequential()
+
+CNN.add(keras.layers.Conv1D(10, kernel_size= 1, strides= 1, padding='valid', 
+                            activation='relu', input_shape = (497, 16), use_bias= True))    #activation='relu'
+CNN.add(keras.layers.AveragePooling1D(pool_size=11, strides= 3, padding='valid'))
+
+CNN.add(keras.layers.Conv1D(35, kernel_size= 1, strides= 1, padding='valid', 
+                            activation='relu', input_shape = (163, 10), use_bias= True))
+#CNN.add(keras.layers.AveragePooling1D(pool_size=8, strides= 5, padding='valid'))
+CNN.add(keras.layers.GlobalAveragePooling1D())
+
+
+
+
+CNN = keras.Sequential()
+
+CNN.add(keras.layers.Conv1D(10, kernel_size= 1, strides= 1, padding='valid', 
+                            activation='relu', input_shape = (122, 52), use_bias= True))    #activation='relu'
+CNN.add(keras.layers.AveragePooling1D(pool_size=11, strides= 3, padding='valid'))
+
+CNN.add(keras.layers.Conv1D(35, kernel_size= 1, strides= 1, padding='valid', 
+                            activation='relu', input_shape = (38, 10), use_bias= True))
+#CNN.add(keras.layers.AveragePooling1D(pool_size=8, strides= 5, padding='valid'))
+CNN.add(keras.layers.GlobalAveragePooling1D())
+
+
+
+
+
+max_conj = 0.8400534391403198, 0.8427266478538513 ,0.8451771140098572, 0.8498551845550537
+max_w3s1 = 0.8496324419975281
+
+
+
+
+
+----------------------------------------------
+
+h3_w3_s1 1000 épocas:
+
+
+ap(11,3) ; gpa ; 
+max val_accuracy :0.8516373634338379; min val_loss : 0.35069870948791504
+
+ap(11,3) ; gpa ; 
+max val_accuracy :0.8558698892593384; min val_loss : 0.35138124227523804
+
+ap(11,3) ; gpa ; 
+max val_accuracy :0.8531966805458069; min val_loss : 0.34258395433425903
+
+ap(11,3) ; gpa ;
+max val_accuracy :0.8511918187141418; min val_loss : 0.3563999533653259
+
+
+
+ap(11,3) ; ap(37,21) ;
+max val_accuracy :0.8569837212562561; min val_loss : 0.34133172035217285
+
+ap(11,3) ; ap(37,21) ;
+max val_accuracy :0.8525283932685852; min val_loss : 0.3593282997608185
+
+ap(11,3) ; ap(37,21) ;
+max val_accuracy :0.8471819758415222; min val_loss : 0.37081944942474365
+
+ap(11,3) ; ap(37,21) ;
+max val_accuracy :0.854087769985199; min val_loss : 0.36815667152404785
+
+
+
+
+
+
+
+ap(11,3) ; ap(37,21); gpa(60)
+max val_accuracy :0.8658944368362427; min val_loss : 0.323075532913208     500 epochs
+
+max val_accuracy :0.8580975532531738; min val_loss : 0.33158808946609497   200?
+
+max val_accuracy :0.8634439706802368; min val_loss : 0.3234816789627075    400
+max val_accuracy :0.8701269626617432; min val_loss : 0.325954794883728     400
+max val_accuracy :0.8627756834030151; min val_loss : 0.32676225900650024   400
+max val_accuracy :0.8634439706802368; min val_loss : 0.3221508860588074    400
+max val_accuracy :0.8569837212562561; min val_loss : 0.3330344557762146    400
+max val_accuracy :0.8645578026771545; min val_loss : 0.32595333456993103   400
+max val_accuracy :0.8683448433876038; min val_loss : 0.3185785114765167    400
+
+0.8634439706802368 + 0.8701269626617432 + 0.8627756834030151 + 0.8634439706802368 + 0.8569837212562561 + 0.8645578026771545 + 0.8683448433876038 = 0.86423956496
+
+
+
+
+max val_accuracy :0.8592113852500916; min val_loss : 0.3342241942882538    200
+max val_accuracy :0.8710180521011353; min val_loss : 0.3174874782562256    200
+max val_accuracy :0.8670082688331604; min val_loss : 0.31747016310691833   200
+max val_accuracy :0.8574292659759521; min val_loss : 0.33393624424934387   200
+max val_accuracy :0.8603252172470093; min val_loss : 0.3311452567577362    200
+max val_accuracy :0.8567609786987305; min val_loss : 0.3384588062763214    200
+max val_accuracy :0.8652260899543762; min val_loss : 0.32290899753570557   200
+
+
+0.8592113852500916 + 0.8710180521011353 + 0.8670082688331604 + 0.8574292659759521 + 0.8603252172470093 + 0.8567609786987305 + 0.8652260899543762 = 0.86242560829
+
+
+
+-------------------------------------------------------
+
+
+
+max val_accuracy :0.8658944368362427; min val_loss : 0.3203016221523285  250
+max val_accuracy :0.8683448433876038; min val_loss : 0.321428120136261   250
+max val_accuracy :0.8589886426925659; min val_loss : 0.334198534488678   250
+max val_accuracy :0.8656716346740723; min val_loss : 0.3311590552330017  250
+max val_accuracy :0.8647805452346802; min val_loss : 0.33035245537757874 250
+max val_accuracy :0.8567609786987305; min val_loss : 0.3334415555000305  250
+max val_accuracy :0.8634439706802368; min val_loss : 0.32118192315101624 250
+
+
+0.8658944368362427 + 0.8683448433876038 + 0.8589886426925659 + 0.8656716346740723 + 0.8647805452346802 + 0.8567609786987305 + 0.8634439706802368 = 0.86341215031
+
+
+
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+h3_w3_s1 e h3_w4_s2:
+
+
+
+
+número de filtros diminuídos no merge para o h3_w4_s2 -> conv: 5, 10, --> 60              200 épocas eh suficiente
+
+
+
+
+max val_accuracy :0.8665627241134644; min val_loss : 0.32860267162323
+max val_accuracy :0.8607707619667053; min val_loss : 0.3258501887321472
+max val_accuracy :0.8612163066864014; min val_loss : 0.32941699028015137
+max val_accuracy :0.8634439706802368; min val_loss : 0.32595860958099365
+max val_accuracy :0.8661171793937683; min val_loss : 0.32043853402137756
+max val_accuracy :0.8629984259605408; min val_loss : 0.3257403075695038
+max val_accuracy :0.86678546667099; min val_loss : 0.3135331869125366
+
+
+
+
+0.8665627241134644 + 0.8607707619667053 + 0.8612163066864014 + 0.8634439706802368 + 0.8661171793937683 + 0.8629984259605408 + 0.86678546667099  =  0.86398497649
+
+
+
+
+
+mesmo número de filtros -> conv 10, 35 --> 60
+
+
+
+max val_accuracy :0.8634439706802368; min val_loss : 0.3296610116958618
+max val_accuracy :0.8621073961257935; min val_loss : 0.3277096450328827
+max val_accuracy :0.859879732131958; min val_loss : 0.3305782973766327
+
+
+
+
+
+
+mesmo número de filtros -> conv 10, 35 --> 130
+
+
+max val_accuracy :0.8645578026771545; min val_loss : 0.32632705569267273
+max val_accuracy :0.8574292659759521; min val_loss : 0.3331497013568878
+max val_accuracy :0.8609935641288757; min val_loss : 0.33470818400382996
+max val_accuracy :0.8572065234184265; min val_loss : 0.330658495426178
+
+
+
+
+
+
+
+
+max val_accuracy :0.8627756834030151; min val_loss : 0.32173648476600647
+max val_accuracy :0.8583203554153442; min val_loss : 0.3448420464992523
+max val_accuracy :0.861884593963623; min val_loss : 0.3277937173843384

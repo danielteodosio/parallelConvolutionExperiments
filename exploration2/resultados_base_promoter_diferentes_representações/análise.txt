@@ -1,0 +1,2 @@
+diferentes representações geraram diferentes taxas de erro ou (não erro) para diferentes 
+amostras... promissor.

@@ -1,0 +1,131 @@
+
+w3s1
+max val_accuracy :0.6364315748214722; min val_loss : 0.631134569644928
+max val_accuracy :0.645651638507843; min val_loss : 0.6291742324829102
+
+
+
+w12s4
+max val_accuracy :0.6150012612342834; min val_loss : 0.6512675285339355
+max val_accuracy :0.6219785809516907; min val_loss : 0.6488731503486633
+
+
+
+conj
+max val_accuracy :0.6321953535079956; min val_loss : 0.638286828994751
+... nao bom
+
+
+conj_denso
+
+max val_accuracy :0.6334413290023804; min val_loss : 0.6380954384803772
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------
+
+quweo morre
+
+3====================
+
+max val_accuracy :0.872131884098053; min val_loss : 0.3086540102958679
+max val_accuracy :0.8783693313598633; min val_loss : 0.30094581842422485
+max val_accuracy :0.8759189248085022; min val_loss : 0.3036594092845917
+max val_accuracy :0.8690131306648254; min val_loss : 0.31082838773727417
+max val_accuracy :0.8712407946586609; min val_loss : 0.30739179253578186
+
+avg = 0.87333481311
+
+
+3 -> 9, 3
+
+
+
+
+
+
+9==================
+
+max val_accuracy :0.8609935641288757; min val_loss : 0.33267420530319214
+max val_accuracy :0.8665627241134644; min val_loss : 0.32693684101104736
+max val_accuracy :0.8572065234184265; min val_loss : 0.3412792980670929
+max val_accuracy :0.8658944368362427; min val_loss : 0.3303595185279846
+max val_accuracy :0.8699042201042175; min val_loss : 0.31644585728645325
+
+
+
+
+9 -> 9, 3; 35, 21
+
+
+
+
+6=============================
+
+
+max val_accuracy :0.8694586753845215; min val_loss : 0.3160678744316101
+max val_accuracy :0.8670082688331604; min val_loss : 0.3211914300918579
+max val_accuracy :0.8685675859451294; min val_loss : 0.317104309797287
+max val_accuracy :0.8696814179420471; min val_loss : 0.318678617477417
+max val_accuracy :0.8665627241134644; min val_loss : 0.3178659677505493
+
+6 -> 9,3; 36,21
+
+
+
+#############################################################################3
+
+conv_conj_larga_w3_w1_equal
+
+
+max val_accuracy :0.872131884098053; min val_loss : 0.3095802068710327
+max val_accuracy :0.8707952499389648; min val_loss : 0.31129133701324463
+max val_accuracy :0.8707952499389648; min val_loss : 0.3140459656715393
+
+conv_conj_estreita
+
+
+max val_accuracy :0.8728001713752747; min val_loss : 0.30421924591064453
+max val_accuracy :0.8748050928115845; min val_loss : 0.3051798343658447
+max val_accuracy :0.8745822906494141; min val_loss : 0.30373266339302063
+max val_accuracy :0.8696814179420471; min val_loss : 0.31330543756484985   #
+max val_accuracy :0.8772554993629456; min val_loss : 0.30699193477630615
+
+avg = 0.87382489442
+
+max val_accuracy :0.8694586753845215; min val_loss : 0.31231725215911865   #
+max val_accuracy :0.872577428817749; min val_loss : 0.3107356131076813
+
+
+
+################
+
+
+paralelo-denso
+
+max val_accuracy :0.8748050928115845; min val_loss : 0.3102721869945526       250
+max val_accuracy :0.8732457160949707; min val_loss : 0.3079840838909149
+max val_accuracy :0.8743595480918884; min val_loss : 0.30283987522125244
+max val_accuracy :0.8712407946586609; min val_loss : 0.3121699094772339
+max val_accuracy :0.872577428817749; min val_loss : 0.30890220403671265
+
+avg = 0.87324571609
+
+
+
+---------------------------------------
+
+conv_conj_larga_w3_w1
+
+
+
+max val_accuracy :0.8750278353691101; min val_loss : 0.3048901855945587
+max val_accuracy :0.8734684586524963; min val_loss : 0.30786654353141785
