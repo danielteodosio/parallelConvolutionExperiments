@@ -1,0 +1,134 @@
+h4ac - w1w3w6
+
+
+
+
+w3
+
+
+
+
+rs = 20
+
+max val_accuracy :0.6913921236991882 : max f1-score :0.7152734398841858 : max precision :0.7725315093994141 : max recall :0.9358985424041748 : min val_loss : 0.5850685834884644
+
+accuracy: 0.6818 - f1_m: 0.6975 - precision_m: 0.6711 - recall_m: 0.7261 - loss: 0.5924 
+
+
+
+
+
+rs = 21
+
+max val_accuracy :0.6814027428627014 : max f1-score :0.69920814037323 : max precision :0.7475283741950989 : max recall :0.9358494877815247 : min val_loss : 0.596725583076477
+
+
+accuracy: 0.6814 - f1_m: 0.6806 - precision_m: 0.6822 - recall_m: 0.6790 - loss: 0.5964 
+
+
+
+rs = 22
+
+max val_accuracy :0.688416600227356 : max f1-score :0.7050309181213379 : max precision :0.752275288105011 : max recall :0.9166768789291382 : min val_loss : 0.5859680771827698
+
+
+loss: 0.6041 - accuracy: 0.6699 - f1_m: 0.6720 - precision_m: 0.6588 - recall_m: 0.6858
+
+
+
+
+rs = 23
+
+max val_accuracy :0.6799150109291077 : max f1-score :0.7084493041038513 : max precision :0.7395228147506714 : max recall :0.9077787399291992 : min val_loss : 0.595848560333252
+
+loss: 0.6128 - accuracy: 0.6761 - f1_m: 0.6782 - precision_m: 0.6571 - recall_m: 0.7007
+
+
+
+rs = 24
+
+max val_accuracy :0.6682252883911133 : max f1-score :0.6949054598808289 : max precision :0.7467237710952759 : max recall :0.905807614326477 : min val_loss : 0.6063275933265686
+
+
+
+loss: 0.6101 - accuracy: 0.6655 - f1_m: 0.6756 - precision_m: 0.6580 - recall_m: 0.6942
+
+
+rs = 25
+
+
+max val_accuracy :0.6814027428627014 : max f1-score :0.7009475231170654 : max precision :0.737605094909668 : max recall :0.8299137949943542 : min val_loss : 0.5973864197731018
+
+loss: 0.6005 - accuracy: 0.6714 - f1_m: 0.6461 - precision_m: 0.6803 - recall_m: 0.6151
+
+
+
+
+
+
+
+
+
+w9
+
+
+rs = 60
+
+max val_accuracy :0.6964930891990662 : max f1-score :0.7007738947868347 : max precision :0.757142186164856 : max recall :0.9292065501213074 : min val_loss : 0.5877818465232849
+
+
+loss: 0.5917 - accuracy: 0.6795 - f1_m: 0.6763 - precision_m: 0.6830 - recall_m: 0.669
+
+
+
+rs = 61
+
+
+max val_accuracy :0.6811902523040771 : max f1-score :0.708096444606781 : max precision :0.7665408253669739 : max recall :0.9546537399291992 : min val_loss : 0.5944457650184631
+
+
+loss: 0.6036 - accuracy: 0.6699 - f1_m: 0.6589 - precision_m: 0.6778 - recall_m: 0.6410
+
+
+rs = 62
+
+max val_accuracy :0.6905419826507568 : max f1-score :0.7046557664871216 : max precision :0.7259302139282227 : max recall :0.9332603216171265 : min val_loss : 0.5949835181236267
+
+
+loss: 0.5913 - accuracy: 0.6827 - f1_m: 0.6728 - precision_m: 0.6971 - recall_m: 0.6501
+
+
+
+
+rs = 63
+
+
+max val_accuracy :0.68055260181427 : max f1-score :0.708790123462677 : max precision :0.7647311687469482 : max recall :0.9342997670173645 : min val_loss : 0.5955753326416016
+
+
+loss: 0.5967 - accuracy: 0.6842 - f1_m: 0.6845 - precision_m: 0.6787 - recall_m: 0.6904
+
+
+rs = 64
+
+max val_accuracy :0.6969181895256042 : max f1-score :0.710739254951477 : max precision :0.7477220296859741 : max recall :0.8788341879844666 : min val_loss : 0.5790119767189026
+
+
+loss: 0.6184 - accuracy: 0.6710 - f1_m: 0.6674 - precision_m: 0.6764 - recall_m: 0.6586
+
+
+
+rs = 65
+
+max val_accuracy :0.6892667412757874 : max f1-score :0.7017872929573059 : max precision :0.7790775895118713 : max recall :0.8746323585510254 : min val_loss : 0.5949862003326416
+
+
+loss: 0.6148 - accuracy: 0.6731 - f1_m: 0.6461 - precision_m: 0.6872 - recall_m: 0.6096
+
+
+
+
+
+
+
+
