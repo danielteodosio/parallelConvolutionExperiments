@@ -1,0 +1,15 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Número de segmentos & Memória alocada (MB) & Tempo médio por época (s) \\
+\hline
+1 & 927.99 & 43.333 \\
+2 & 940.74 & 75.333 \\
+3 & 953.53 & 89.8 \\
+4 & 965.97 & 116.416 \\
+\hline
+\end{tabular}
+\caption{Insira o título da tabela aqui}
+\label{table:1}
+\end{table}

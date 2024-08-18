@@ -1,0 +1,16 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Experimento - Arquitetura & Acurácia (\%) & F1-score & Precisão & Sensibilidade \\ \hline
+M1                        & 86,63         & 0,8709   & 0,88036  & 0,88138       \\ \hline
+M3                        & 86,734        & 0,8784   & 0,87834  & 0,8824        \\ \hline
+M6                        & 87,243        & 0,8754   & 0,86746  & 0,8889        \\ \hline
+M2                        & 86,424        & 0,86572  & 0,86572  & 0,86606       \\ \hline
+M1/M3                     & 86,9857       & 0,872971 & 0,867571 & 0,8791        \\ \hline
+M1/M2/M3                  & 86,967        & 0,87502  & 0,86239  & 0,88834       \\ \hline
+M1/M2/M3/M6               & 87,328        & 0,87714  & 0,87319  & 0,88161       \\ \hline
+\end{tabular}
+\caption{Performance metrics for different experiments}
+\label{table:1}
+\end{table}

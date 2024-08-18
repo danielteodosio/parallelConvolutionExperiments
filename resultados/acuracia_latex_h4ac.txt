@@ -1,0 +1,16 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Experimento - Arquitetura & Acurácia (\%) & F1-score & Precisão & Sensibilidade \\ \hline
+W1                        & 66,848        & 0,68058  & 0,62778  & 0,75104       \\ \hline
+W3                        & 67,456        & 0,675    & 0,67167  & 0,80483       \\ \hline
+W6                        & 68,215        & 0,6777   & 0,68557  & 0,75091       \\ \hline
+W9                        & 67,85778      & 0,6789   & 0,68337  & 0,65312       \\ \hline
+W1W3                      & 67,734        & 0,67625  & 0,6839   & 0,67059       \\ \hline
+W1W3W6                    & 68,572        & 0,68566  & 0,68827  & 0,68457       \\ \hline
+W1W3W6W9                  & 68,357        & 0,67784  & 0,6875   & 0,6695        \\ \hline
+\end{tabular}
+\caption{Resultados dos experimentos de diferentes arquiteturas - h4ac.}
+\label{table:1}
+\end{table}

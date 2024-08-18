@@ -1,0 +1,15 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Número de segmentos & Memória alocada (MB) & Tempo médio por época (s) \\
+\hline
+1 & 485,28 & 23,7 \\
+2 & 509,41 & 35 \\
+3 & 511,72 & 50,555 \\
+4 & 520,56 & 63,674 \\
+\hline
+\end{tabular}
+\caption{Desempenho em função do número de segmentos}
+\label{tab:my_label}
+\end{table}
